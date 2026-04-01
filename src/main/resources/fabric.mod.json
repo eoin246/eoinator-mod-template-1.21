@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "eoinator-mod",
+	"version": "${version}",
+	"name": "Eoinator Mod",
+	"description": "This is my very first mod! I'm learning the basics and the ropes of Minecraft modding!",
+	"authors": [
+		"Eoinator"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/eoinator-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.eoinator.eoinatormod.EoinatorMod"
+		],
+		"fabric-datagen": [
+			"com.eoinator.eoinatormod.EoinatorModDataGenerator"
+		],
+		"client": [
+			"com.eoinator.eoinatormod.EoinatorModClient"
+		]
+	},
+	"mixins": [
+		"eoinator-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.5",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
