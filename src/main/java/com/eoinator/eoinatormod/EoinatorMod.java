@@ -1,5 +1,6 @@
 package com.eoinator.eoinatormod;
 
+import com.eoinator.eoinatormod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +13,6 @@ public class EoinatorMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
