@@ -12,7 +12,7 @@
 		"sources": "https://github.com/eoin246/eoinator-mod-template-1.21"
 	},
 	"license": "All Rights Reserved",
-	"icon": "assets/eoinator-mod/icon.png",
+	"icon": "icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
